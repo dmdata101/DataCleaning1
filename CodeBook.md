@@ -83,9 +83,10 @@ information from data.table 'data' is grouped by Subject and Activity on line 10
 
 function 'summarise_each' summarizes all tables NOT previously grouped, performing the operation 'mean'
 
-FINAL TABLE
-tidyfinaltable contains the final answer to this test: average of all available measures grouped by Subject and Activity
+### FINAL TABLE
+tidyfinaltable contains the final answer to this test: average of all available measures grouped by Subject and Activity.
 
-- col1: Subject reference
-- col2: Activity reference (using descriptive activity name)
-- col3 and above: variable averaged by Subject and Activity.
+Data definition:
+- column 1: Subject reference
+- column 2: Activity reference (using descriptive activity name)
+- columns 3 and above: All other variables averaged by Subject and Activity.
