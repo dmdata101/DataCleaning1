@@ -11,7 +11,7 @@ Script description
 
 Script 'run_analysis.R' works when it is in the same folder as folders 'test' and 'train'. 
 
-*** QUESTION 1 
+### QUESTION 1 
 
 Lines 1-32 : Files are read:
   feature.txt -> to variable 'listvar' to create the list of all variables
@@ -26,7 +26,7 @@ Line 37 : data is merged to the data.frame variable 'datamerged'
 > datamerged is the answer to question 1
 
 
-*** QUESTION 2
+### QUESTION 2
 
 Lines 49-52: Fields containing average or std deviation variables are selected using the 'grep' function on field names, on line 50 and 51.
 
@@ -34,7 +34,7 @@ Line 53: subset 'datameanstd' contains only variables requested in question 2.
 
 > datameanstd is the answer to question 2
 
-*** QUESTION 3
+### QUESTION 3
 
 Lines 58-67 : Files containing the activity are read as factors.
 
@@ -47,14 +47,14 @@ Line 76 : Levels in data.frame datameanstdactivity are renamed with the 'Descrip
 > datameanstdactivity is the answer to question 3
 
 
-*** QUESTION 4
+### QUESTION 4
 
 Lines 80-82 : Puntuation marks are removed from variable names to make them more descriptive.
 
 > datameanstdactivity is the answer to question 4
 
 
-*** QUESTION 5
+### QUESTION 5
 
 Lines 86-91 : Subject information is read from files in data.frames
 

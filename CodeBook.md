@@ -16,7 +16,7 @@ datamerged: data.table containing the merged data.
  
 TEMPORARY VARIABLES
 
-data_train and data_test are data.table read from the files/
+data_train and data_test are data.table read from the files
 
 OPERATIONS/TRANSFORMATIONS
 
@@ -85,6 +85,7 @@ function 'summarise_each' summarizes all tables NOT previously grouped, performi
 
 FINAL TABLE
 tidyfinaltable contains the final answer to this test: average of all available measures grouped by Subject and Activity
-col1: Subject reference
-col2: Activity reference (using descriptive activity name)
-col3 and above: variable averaged by Subject and Activity.
+
+- col1: Subject reference
+- col2: Activity reference (using descriptive activity name)
+- col3 and above: variable averaged by Subject and Activity.
